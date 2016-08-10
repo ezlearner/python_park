@@ -1,0 +1,12 @@
+<html>
+  <body>
+      <p>Hello there, new user</P>
+	  <p>Here is your lucky number</p>
+	  <p>{{lno}}</p>
+	  {% if lno == 99 %}
+	      <p>Wow! That's super lucky!</p>
+	  {%elif lno <50 %}
+          <p>Wow! That's no lucky!</p>  	  
+	  {% endif %}
+  </body>
+</html>  
